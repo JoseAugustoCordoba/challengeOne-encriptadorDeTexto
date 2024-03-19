@@ -1,0 +1,87 @@
+body {
+  background: url(fondo.png);
+  background-color: grey;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 25px;
+  left: -35px;
+  display: block;
+}
+
+footer {
+  color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  font: size 10px;
+  text-align: center;
+  padding-top: 1%;
+  padding-right: 20px;
+}
+
+.campoTexto {
+  background-color: white;
+  font-weight: bolder;
+  width: 28%;
+  height: 28%;
+  margin-top: 40px;
+  margin-left: 36%;
+  position: absolute;
+  border: 3px solid blue;
+  text-align: center;
+
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  resize: none;
+}
+
+.botonE {
+  position: absolute;
+  font-weight: bolder;
+  margin-left: 36%;
+  margin-top: 280px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.botonD {
+  position: absolute;
+  font-weight: bolder;
+  margin-top: 280px;
+  margin-left: 59%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.resultado {
+  background-color: white;
+  font-weight: bolder;
+  width: 28%;
+  height: 28%;
+  margin-top: 350px;
+  margin-left: 36%;
+  position: absolute;
+  border: 3px solid blue;
+  text-align: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  resize: none;
+}
+
+.botonC {
+  font-weight: bolder;  
+  margin-top: 580px;
+  margin-left: 49%;
+  padding: 10px;
+  cursor: pointer;
+}

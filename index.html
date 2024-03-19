@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+
+        <header>
+            <img src="Logo.png" alt="Logo-Alura" title="Logo Alura" class="logo">
+            <h1>Encriptador secreto de texto</h1>      
+            
+        </header>
+
+        <main>
+
+            <section>
+                <label for="textoIntroducido"></label>
+                <textarea  id="textoIntroducido" class="campoTexto"
+                placeholder="Ingrese su texto aqui:" required maxlength="300"></textarea>
+
+                <div class="boton">
+                    <button class="botonE" onclick="botonE()">Encriptar</button>
+                    
+                    <button class="botonD" onclick="botonD()">Desencriptar</button>
+
+                    <!-- <input type="submit" value="Encriptar" class="botonE" onclick="encriptar()">
+                    <input type="submit" value="Desencriptar" class="botonD" onclick="desencriptar()"> -->
+                </div>
+            </section>
+            <!--usar comando: action="app.js" method="POST" ??? whitin form?? --> 
+
+            <section>
+                <label for="resultado"></label>
+                <textarea  id="resultado" class="resultado" rows="10" cols="40"
+                placeholder="Resultado:" readonly></textarea>
+                
+            <div class="boton">
+                <button class="botonC" onclick="botonC()">Copiar</button>
+            </div>
+                
+                <!--<input type="submit" value="Copiar" class="botonC" onclick="copiar()">-->
+                
+            </section>
+
+            
+        </main>
+
+
+        <footer>
+            <p>&copy Copyright Jose Augusto Cordoba - 2024</p>    
+        </footer>
+
+        <script src="app.js">  
+        </script>
+    
+
+    </body>
+
+
+
+
+
+</html>
